@@ -1,0 +1,26 @@
+/* common */
+
+/* pngfix */
+img, div { behavior: url(/css/iepngfix.htc) }
+
+/* css3 pie */
+
+/* clearfix */
+.clearfix:after { 
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  font-size: 0.1em;
+}
+.clearfix { 
+  min-height: 1px;
+}
+* html .clearfix { 
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
