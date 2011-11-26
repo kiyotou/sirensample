@@ -24,3 +24,36 @@ img, div { behavior: url(/css/iepngfix.htc) }
   overflow: hidden;
   /**/
 }
+
+/* layout */
+
+#header {
+  height: 60px;
+  background-color: #F95;
+  color: #FFF;
+}
+#header h1 {
+  float:left;
+  width: 270px;
+  font-size: x-large;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#header #nav {
+  float:right;
+  width: 500px;
+  padding-top: 20px;
+  font-size: small;
+}
+#header #nav li {
+  float:left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#headline {
+  height: 140px;
+  text-align:center;
+  padding-top: 100px;
+  font-size: xx-large;
+  border-bottom: 1px solid #CCC;
+}
