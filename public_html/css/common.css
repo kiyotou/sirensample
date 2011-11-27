@@ -25,11 +25,22 @@ img, div { behavior: url(/css/iepngfix.htc) }
   /**/
 }
 
-/* layout */
+/* default layout */
+
+body {
+	background-image: url(/img/page_bg.gif);
+}
+#wrapper {
+	background: url(/img/page_bg.jpg) no-repeat center;	
+}
+.container {
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 #header {
   height: 60px;
-  background-color: #F95;
   color: #FFF;
 }
 #header h1 {
@@ -56,4 +67,7 @@ img, div { behavior: url(/css/iepngfix.htc) }
   padding-top: 100px;
   font-size: xx-large;
   border-bottom: 1px solid #CCC;
+}
+#footer {
+	background-color: 
 }
