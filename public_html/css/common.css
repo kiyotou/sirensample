@@ -29,6 +29,9 @@ img, div { behavior: url(/css/iepngfix.htc) }
 
 body {
 	background-image: url(/img/page_bg.gif);
+	text-shadow:0 1px 0 rgba(255,255,255,.7);
+	font-size: small;
+	font-family: Georgia,"Times New Roman",serif;;
 }
 #wrapper {
 	background: url(/img/page_bg.jpg) no-repeat center;	
@@ -48,13 +51,15 @@ body {
   float:left;
   width: 270px;
   font-size: x-large;
-  margin-top: 20px;
+  margin-top: 45px;
   margin-left: 20px;
-}
+  font-family: 'Open Sans', sans-serif;
+} 
 #header #nav {
+  font-family: 'Open Sans', sans-serif;
   float:right;
   width: 500px;
-  padding-top: 20px;
+  margin-top: 55px;
   font-size: small;
 }
 #header #nav li {
@@ -63,6 +68,7 @@ body {
   padding-right: 15px;
 }
 #headline {
+  font-family: 'Open Sans', sans-serif;
   height: 140px;
   text-align:center;
   padding-top: 100px;
