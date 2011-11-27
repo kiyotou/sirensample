@@ -1,4 +1,4 @@
-var playlistid = "PLB512E1B41012D8EF"
+var playlistid = "B512E1B41012D8EF"
 
 var listlengthcheck = "http://gdata.youtube.com/feeds/api/playlists/"+playlistid+"?v=2&alt=jsonc&max-results=1&callback=listlength"
 document.write('<scr'+'ipt type="text/javascript" src="' + listlengthcheck + '"></scr'+'ipt>');
