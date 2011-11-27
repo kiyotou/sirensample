@@ -14,5 +14,5 @@ function listlength (youtube) {
 function ylistrandom (youtube) {
 	var entries = youtube.data.items;	
 	var src= entries[Math.floor(Math.random()*entries.length)].video.id;
-	document.write('<embed src="http://www.youtube.com/v/' + src + '&hl=ja_JP&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="200" height="165"></embed>');
+	document.write('<embed src="http://www.youtube.com/v/' + src + '&hl=ja_JP&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="305" height="200"></embed>');
 }
