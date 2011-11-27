@@ -40,8 +40,9 @@ body {
 }
 
 #header {
-  height: 60px;
+  border-bottom: 1px solid #FFF;
   color: #FFF;
+  height: 90px;
 }
 #header h1 {
   float:left;
@@ -67,7 +68,22 @@ body {
   padding-top: 100px;
   font-size: xx-large;
   border-bottom: 1px solid #CCC;
+  color: #FFF;
+}
+#main {
+  background-color: #FFF;
+  color: #522;
+}
+#main .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #footer {
-	background-color: 
+  background-color: #332024;
+  color: #FFF;
+  font-size: small;
+}
+#footer .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
