@@ -69,15 +69,16 @@ body {
 }
 #headline {
   font-family: 'Open Sans', sans-serif;
-  height: 140px;
+  height: 170px;
   text-align:center;
-  padding-top: 100px;
+  padding-top: 120px;
   font-size: xx-large;
   border-bottom: 1px solid #CCC;
-  color: #FFF;
+  background-color: #FFF;
+  color: #222;
 }
 #main {
-  background-color: #FFF;
+  background-color: #FEE;
   color: #522;
 }
 #main .container {
@@ -99,6 +100,10 @@ body {
 #footer .container #footNav {
 	float:left;
 	width: 200px;
+	font-family: 'Open Sans', sans-serif;
+}
+#footer .container #footNav ul li {
+	margin-bottom: 6px;
 }
 #footer .container #contactform {
 	float:left;
