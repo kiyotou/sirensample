@@ -78,7 +78,7 @@ body {
   color: #222;
 }
 #main {
-  background-color: #FEE;
+  background-color: #FFF6E9;
   color: #522;
 }
 #main .container {
@@ -90,17 +90,22 @@ body {
 }
 #main #topics {
 	float: left;
-	width: 310px;
-	margin-right: 20px;
+	width: 305px;
+	margin-right: 28px;
 }
 #main #video {
 	float: left;
-	width: 310px;
-	margin-right: 20px;
+	width: 305px;
+	margin-right: 27px;
 }
 #main #news {
 	float: left;
-	width: 310px;
+	width: 305px;
+}
+#main h2 {
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: x-large;
 }
 #footer {
   background-color: #332024;
