@@ -29,7 +29,7 @@ img, div { behavior: url(/css/iepngfix.htc) }
 
 body {
 	background-image: url(/img/page_bg.gif);
-	text-shadow:0 1px 0 rgba(255,255,255,.7);
+	text-shadow:0 1px 0 rgba(0,0,0,.3);
 	font-size: small;
 	font-family: Georgia,"Times New Roman",serif;;
 }
@@ -84,6 +84,9 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+#main .container div {
+	margin-bottom: 20px;
+}
 #footer {
   background-color: #332024;
   color: #FFF;
@@ -92,4 +95,16 @@ body {
 #footer .container {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+#footer .container #footNav {
+	float:left;
+	width: 200px;
+}
+#footer .container #contactform {
+	float:left;
+	width: 300px;
+}
+#footer .container #copyright {
+	float:right;
+	width: 200px;
 }
